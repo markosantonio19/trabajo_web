@@ -6,8 +6,6 @@
     <link rel="stylesheet" href="styles.css">
     
     <title>TURISMO WORLD</title>
-</head>
-<body>
     <style>
         /* Estilos generales */
         body {
@@ -62,9 +60,24 @@
         .section-box img {
             max-width: 100%;
             height: auto;
+            object-fit: cover;
+            transition: transform 0.8s;
+        }
+
+        .section-box:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            text-align: center;
+            background-color: #0077b6;
+            color: #fff;
+            padding: 10px;
         }
     </style>
-
+</head>
+<body>
     <header>
         <h1>huanuco city</h1>
         <nav>
@@ -87,14 +100,18 @@
     
     <div class="section-container">
         <div class="section-box">
-            <img src="imagen1.jpg" alt="Acerca del Destino">
-            <h2>Acerca del Destino</h2>
-            <p>Información general sobre el destino turístico.</p>
+            <img src="https://seturismo.pe/wp-content/uploads/2018/08/plaza-de-armas-de-huanuco.jpg" alt="huanuco">
+            <h2>Sobre Huanuco</h2>
+            <p>Huánuco es una región ubicada
+                 en el centro de Perú, en la zona conocida
+                  como la Sierra Central. Su capital es la ciudad de 
+                  Huánuco. Aquí tienes información breve 
+                  y concisa sobre Huánuco <br><a href="enlace-a-mas-informacion.html" target="_blank">Leer más</a></p>
         </div>
 
         <div class="section-box">
             <img src="imagen2.jpg" alt="Atracciones Turísticas">
-            <h2>Atracciones Turísticas</h2>
+            <h2>Lugares Turísticos</h2>
             <p>Descripción de las principales atracciones y actividades.</p>
         </div>
 
@@ -112,7 +129,7 @@
     </div>
     
     <footer>
-       <center> <p>&copy; 2023 Nombre de tu Destino Turístico</p></center>
+        <p>&copy; 2023 Nombre de tu Destino Turístico</p>
     </footer>
 </body>
 </html>
