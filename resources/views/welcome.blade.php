@@ -10,11 +10,63 @@
 <body>
 
 
+    <style>
+        /* Reset de estilos */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
 
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
 
 
     <header>
-        <h1>Nombre de tu Destino Turístico</h1>
+        <h1>huanuco city</h1>
         <nav>
             <ul>
                 <li><a href="#acerca">Acerca del Destino</a></li>
