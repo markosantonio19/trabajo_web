@@ -89,6 +89,58 @@
                 .leer-mas:hover .leer-mas {
                     transform: scale(1.05); /* Escala el enlace al 105% del tamaño original al pasar el cursor */
                 }
+
+
+
+
+
+            .image-container {
+            display: flex;
+            width: 900px;
+            height:600px;
+            overflow: hidden;
+        }
+
+        .image-container div {
+            width: 100%;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.8;
+            transition: width 0.5s ease, opacity 0.5s ease, filter 0.5s ease;
+        }
+
+        .image-container span {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .image-container div:hover img {
+            cursor: pointer;
+            width: 600px;
+            opacity: 1;
+            filter: contrast(120%);
+        }
+
+        .image-container div:hover span {
+            opacity: 1;
+        }    
     </style>
 </head>
 <body>
@@ -111,7 +163,34 @@
             </ul>
         </nav>
     </header>
+
+
+    <center><div class="image-container">
+        <div>
+            <img src="../photos/cueva.jpg" alt="">
+            <span>CUEVA DE LAS LECHUZAS</span>
+        </div>
+        <div>
+            <img src="../photos/cordillera-huayhuash.jpg" alt="">
+            <span>CORDILLERA DE HUAYHUASH</span>
+        </div>
+        <div>
+            <img src="../photos/bella.jpg" alt="">
+            <span>LA BELLA DURMIENTE</span>
+        </div>
+        <div>
+            <img src="../photos/huanopanpa.jpg" alt="">
+            <span>HUANOPANPA 4</span>
+        </div>
+        <div>
+            <img src="../photos/kotosh.jpg" alt="">
+            <span>COMPJEO ARQUEOLOGIOCO KOTOSH</span>
+        </div>
+    </div>
+                </center>
     
+        
+        <br><br><br><br>
     <div class="section-container">
         <div class="section-box">
             <img src="https://seturismo.pe/wp-content/uploads/2018/08/plaza-de-armas-de-huanuco.jpg" alt="huanuco">
