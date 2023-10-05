@@ -36,6 +36,7 @@
         nav a {
             text-decoration: none;
             color: #fff;
+            
         }
 
         /* Estilos para las secciones */
