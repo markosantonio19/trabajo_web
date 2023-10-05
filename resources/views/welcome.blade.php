@@ -75,6 +75,19 @@
             color: #fff;
             padding: 10px;
         }
+
+
+        .leer-mas {
+                    color: #0077b6;
+                    text-decoration: none;
+                    font-weight: bold;
+                    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Agregar sombra */
+                    transition: transform 0.2s;/* Escala el enlace al 105% del tamaño original al pasar el cursor */
+                }
+
+                .leer-mas:hover .leer-mas {
+                    transform: scale(1.05); /* Escala el enlace al 105% del tamaño original al pasar el cursor */
+                }
     </style>
 </head>
 <body>
@@ -106,25 +119,29 @@
                  en el centro de Perú, en la zona conocida
                   como la Sierra Central. Su capital es la ciudad de 
                   Huánuco. Aquí tienes información breve 
-                  y concisa sobre Huánuco <br><a href="enlace-a-mas-informacion.html" target="_blank">Leer más</a></p>
+                  y concisa sobre Huánuco <br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
+
+        
         </div>
 
+        
+
         <div class="section-box">
-            <img src="imagen2.jpg" alt="Atracciones Turísticas">
+            <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/07/15/000883617W.jpg" alt="Atracciones Turísticas">
             <h2>Lugares Turísticos</h2>
-            <p>Descripción de las principales atracciones y actividades.</p>
+            <p>Descripción de las principales atracciones y actividades.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
         </div>
 
         <div class="section-box">
             <img src="imagen3.jpg" alt="Alojamiento">
-            <h2>Alojamiento</h2>
-            <p>Opciones de alojamiento disponibles.</p>
+            <h2>donde viajar</h2>
+            <p>Opciones de alojamiento disponibles.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
         </div>
 
         <div class="section-box">
             <img src="imagen4.jpg" alt="Gastronomía">
-            <h2>Gastronomía</h2>
-            <p>Restaurantes locales y platos típicos.</p>
+            <h2>contactos y contratos</h2>
+            <p>Restaurantes locales y platos típicos.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
         </div>
     </div>
     
