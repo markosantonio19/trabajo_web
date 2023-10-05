@@ -130,7 +130,7 @@
         <div class="section-box">
             <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/07/15/000883617W.jpg" alt="Atracciones Turísticas">
             <h2>Lugares Turísticos</h2>
-            <p>Descripción de las principales atracciones y actividades.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
+            <p>cueva de las lechusas<br><a href="#leer-mas-lugares-turisticos"  class="leer-mas">Leer más</a></p>
         </div>
 
         <div class="section-box">
@@ -145,6 +145,14 @@
             <p>Restaurantes locales y platos típicos.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
         </div>
     </div>
+
+
+<br><br><br><br><br>
+    <section id="leer-mas-lugares-turisticos">
+    <h2>Más sobre Lugares Turísticos</h2>
+    <p>Aquí encontrarás información adicional sobre los lugares turísticos que puedes visitar en esta región.</p>
+</section>
+
     
     <footer>
         <p>&copy; 2023 Nombre de tu Destino Turístico</p>
