@@ -209,7 +209,8 @@
         <div class="section-box">
             <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2022/07/15/000883617W.jpg" alt="Atracciones Turísticas">
             <h2>Lugares Turísticos</h2>
-            <p>cueva de las lechusas<br><a href="#leer-mas-lugares-turisticos"  class="leer-mas">Leer más</a></p>
+            <p>un si fin de lugares que podemos visitar para ello aca
+                 les muestro una lista y el costo que le cotizaran<br><a href="#leer-mas-lugares-turisticos"  class="leer-mas">Leer más</a></p>
         </div>
 
         <div class="section-box">
@@ -219,9 +220,28 @@
         </div>
 
         <div class="section-box">
-            <img src="imagen4.jpg" alt="Gastronomía">
+            <img src="https://www.macelleria.com.mx/wp-content/uploads/2014/05/recervaciones-macelleria.png" alt="Gastronomía">
             <h2>contactos y contratos</h2>
-            <p>Restaurantes locales y platos típicos.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
+                    <p>aqui podras ponernos en contacto con nosotros.<br>
+           <center> <table>
+            <tr>
+                <td>Servicio</td>
+                <td>Precio</td>
+            </tr>
+            <tr>
+                <td>tours indvidual </td>
+                <td>$150 todo el dia</td>
+            </tr>
+            <tr>
+                <td>tours doble</td>
+                <td>$250 todo el dia</td>
+            </tr>
+            <tr>
+                <td>tours familiar</td>
+                <td>$2000 todo el dia</td>
+            </tr>
+            </table></center>
+<br> <a href="#leer-mas-reservaciones" class="leer-mas">Leer más</a></p>
         </div>
     </div>
 
@@ -230,7 +250,17 @@
     <section id="leer-mas-lugares-turisticos">
     <h2>Más sobre Lugares Turísticos</h2>
     <p>Aquí encontrarás información adicional sobre los lugares turísticos que puedes visitar en esta región.</p>
-</section>
+    </section>
+
+
+<br><br><br><br><br>
+    <section id="leer-mas-reservaciones">
+    <h2>Más sobre Lugares Turísticos</h2>
+    <p>Aquí encontrarás información adicional sobre los lugares turísticos que puedes visitar en esta región.</p>
+    </section>
+    
+
+
 
     
     <footer>
