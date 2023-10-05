@@ -134,9 +134,9 @@
         </div>
 
         <div class="section-box">
-            <img src="imagen3.jpg" alt="Alojamiento">
+            <img src="https://d2lcsjo4hzzyvz.cloudfront.net/blog/wp-content/uploads/2021/12/14154413/los-mejores-destinos-para-viajar-fin-de-ano.jpg" alt="Alojamiento">
             <h2>donde viajar</h2>
-            <p>Opciones de alojamiento disponibles.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
+            <p>recomendaciones para viajar.<br><br><a href="https://es.wikipedia.org/wiki/Hu%C3%A1nuco" target="_blank" class="leer-mas">Leer más</a></p>
         </div>
 
         <div class="section-box">
