@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+Route::get('/paq', function () {
+    return view('paquete');
+});
+Route::get('/servicios', function () {
+    return view('servicios');
+});
+Route::get('/cont', function () {
+    return view('contacto');
+});
+Route::get('/inicio-sesion', function () {
+    return view('iniciar');
 });

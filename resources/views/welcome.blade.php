@@ -146,26 +146,35 @@
 <body>
     <header>
         <h1>huanuco city</h1>
-        <nav>
-            <ul>
-                <?php
-                $navegacion = array(
-                    'Acerca del Destino' => 'acerca',
-                    'Atracciones Turísticas' => 'atracciones',
-                    'Alojamiento' => 'alojamiento',
-                    'Gastronomía' => 'gastronomia'
-                );
-
-                foreach ($navegacion as $nombre => $enlace) {
-                    echo "<li><a href='#$enlace'>$nombre</a></li>";
-                }
-                ?>
-            </ul>
-        </nav>
+         
+    <nav class="nav">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paq">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cont">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/inicio-sesion">Iniciar Sesión</a>
+                    </li> <!-- Agrega este elemento para el botón de inicio de sesión -->
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
 
 
-    <center><div class="image-container">
+    <center>
+        <div class="image-container">
         <div>
             <img src="../photos/cueva.jpg" alt="">
             <span>CUEVA DE LAS LECHUZAS</span>
@@ -186,8 +195,8 @@
             <img src="../photos/kotosh.jpg" alt="">
             <span>COMPJEO ARQUEOLOGIOCO KOTOSH</span>
         </div>
-    </div>
-                </center>
+        </div>
+     </center>
     
         
         <br><br><br><br>
